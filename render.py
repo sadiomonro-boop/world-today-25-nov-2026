@@ -90,12 +90,12 @@ BRIEFS = [
     ("SAN FRANCISCO", "Anthropic posts a shorter Riemann proof.", "ANTHROPIC"),
     ("SAN FRANCISCO", "King tides peak; Bay Area roads flood.", "NWS"),
     ("NEW YORK", "Bitcoin sinks to $57,300 on hot US inflation.", "COINDESK"),
-    ("SPAIN", "Country heads to a snap election on Sunday.", "BBC"),
+    ("UNITED STATES", "US economy grew 4.3% in Q3, revised up from 3.4%.", "BEA"),
     ("AUSTRALIA", "Ex-policeman guilty of Sydney double murder.", "BBC"),
     ("WASHINGTON", "Core inflation hits 3.3%; December hike all but set.", "BEA"),
     ("PARIS", "Roma end PSG's perfect Champions League record.", "UEFA"),
     ("UKRAINE", "My family died in Ukraine, a BBC journalist investigates.", "BBC"),
-    ("UNITED STATES", "FBI agent's cold case ends in charges at last.", "BBC"),
+    ("UNITED STATES", "BBC revisits the FBI agent's cold case after last month's guilty verdict.", "BBC"),
     ("INDIA", "Sensex jumps over 2% as Asia's markets slide.", "THE HINDU BUSINESSLINE"),
     ("INDIA", "Amazon's exports from India reach $27 billion.", "THE HINDU BUSINESSLINE"),
     ("BOGOR, INDONESIA", "Dozens trapped as floodwater swamps a gold mine.", "REUTERS"),
@@ -345,8 +345,8 @@ def main():
     by = 764
     d.text((24, by), "THE REST OF THE DAY - 26 BRIEFS", font=font(F_BLACK, 13), fill=NAVY)
     d.line([24, by + 19, W - 24, by + 19], fill=NAVY, width=2)
-    bf = font(F_REG, 11)
-    bfb = font(F_BOLD, 11)
+    bf = font(F_REG, 10)
+    bfb = font(F_BOLD, 10)
     colw = (W - 48 - 24) / 2
     for i, (place, text, src) in enumerate(BRIEFS):
         col, row = divmod(i, 13)
@@ -368,8 +368,8 @@ def main():
     fy = dy + 32
     d.text((24, fy), "Sources: Reuters - AP - BBC - Xinhua - NBC News - The Guardian - "
            "Sky News - Yonhap - The Hindu BusinessLine - Chess.com - Anthropic - "
-           "NWS - CoinDesk - BEA - UEFA",
-           font=font(F_BOLD, 10), fill=INK)
+           "NWS - CoinDesk - BEA - UEFA - FIDE - UNESCO - Sports Chosun - AHK Ghana",
+           font=font(F_BOLD, 8), fill=INK)
 
     # ---- deterministic grain for texture ----
     for _ in range(9000):

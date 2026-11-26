@@ -36,12 +36,11 @@ BLUE = (24, 78, 140)
 TEAL = (14, 110, 105)
 
 # ---- stories: (place, headline, dek, source) ----
-HERO = ("GULF OF FINLAND",
-        "Finland detects a new strike on a Russian warship",
-        "Finnish forces say they detected a strike on a Russian navy vessel in "
-        "the Gulf of Finland. Ukraine's Security Service says it carried out "
-        "the attack.",
-        "REUTERS / AL JAZEERA")
+HERO = ("HODEIDAH, YEMEN",
+        "Saudi-led coalition strikes Hodeidah port",
+        "Strikes hit the port after an evacuation order. The Houthis threaten "
+        "Saudi Red Sea ports.",
+        "REUTERS")
 
 LEADS = [
     ("JIUQUAN, CHINA",
@@ -54,80 +53,80 @@ LEADS = [
      "Korea -5.8%, Taiwan -4.7%, Nikkei -2.8% as the US trade chief readies a "
      "probe of excess industrial capacity.",
      "REUTERS"),
-    ("HODEIDAH, YEMEN",
-     "Saudi-led coalition strikes Hodeidah port",
-     "Strikes hit the port after an evacuation order. The Houthis threaten "
-     "Saudi Red Sea ports.",
-     "REUTERS"),
+    ("WASHINGTON, US",
+     "Pentagon audits curriculum in base schools",
+     "The Pentagon audits lessons in about 160 schools on US bases under a "
+     "$5.7m contract.",
+     "AP"),
 ]
 
 MIDS = [
-    ("MOSCOW", "Leaked Russian records put war dead at 720,000",
-     "An investigation cites leaked records on the war's toll.", "INVESTIGATION"),
-    ("UNITED STATES", "Abrego Garcia leaves US for Spain",
-     "Kilmar Abrego Garcia self-deports, ending a two-year legal battle.", "BBC"),
-    ("CARTAGENA", "Gunmen hold hostages in a supermarket",
-     "Armed men seize about 20 hostages after a failed armoured-truck robbery.", "AP"),
-    ("TURKIYE", "Military helicopter crashes; 5 killed",
-     "Five dead as a Turkish military helicopter goes down on a training flight.", "WIRE"),
-    ("DR CONGO", "Rebels call off advance on Bunia",
-     "Rebels pull back after days of fighting around the eastern city.", "WIRE"),
-    ("UNITED NATIONS", "Five women killed every hour by relatives",
-     "UN figures for 2025: a woman is killed by a partner or relative every 12 minutes.", "UN"),
-    ("CUBA", "WHO chief: end the US fuel blockade",
-     "The WHO director-general urges an end to the US fuel blockade on Cuba.", "WIRE"),
-    ("POLAND", "Russian drone briefly enters Polish airspace",
-     "Warsaw reports a Russian drone crossing its airspace during strikes on Ukraine.", "REUTERS"),
+    ("MIDDLETOWN, IOWA", "Army to detonate five tons of lead azide",
+     "Five tons of unstable explosive are destroyed in a controlled blast.", "AP"),
+    ("HONIARA", "Solomon Islands sign Australia treaty",
+     "Australia becomes the primary security partner; no foreign base.", "REUTERS / AP"),
+    ("PYONGYANG", "North Korea expels Swiss diplomat",
+     "Envoy given 48 hours to leave; Pyongyang office ordered shut.", "REUTERS / AP"),
+    ("BENGALURU", "Flipkart chief steps down after 11 years",
+     "Kalyan Krishnamurthy leaves on 4 December; an interim chief takes over.", "REUTERS"),
+    ("LONDON", "UK sent a sex-offender refugee to Eswatini",
+     "A convicted offender was resettled in an undisclosed deal; he later died.", "BBC"),
+    ("DARMSTADT", "Hera unveils first Dimorphos close-ups",
+     "ESA reveals a stadium-sized crater on the asteroid moon.", "BBC"),
+    ("WASHINGTON", "US Marshals reach 20,000 DC arrests",
+     "Task force hits the milestone 15 months after launch.", "US MARSHALS / NBC"),
+    ("CANBERRA", "Australia inflation jumps to 4.9%",
+     "October CPI up from 4.3%; trimmed mean 3.8%.", "REUTERS"),
 ]
 
 # briefs: (place, text, source)
 BRIEFS = [
-    ("GAZA", "Israeli strike kills a Hamas internal security chief.", "BBC"),
-    ("TAIWAN", "China-linked AI fakes smear election candidates, BBC Verify finds.", "BBC"),
-    ("SYRIA", "Land-mine casualties soar, two years after the war.", "BBC"),
-    ("NORTH KOREA", "Christians say they were spied on, beaten and jailed.", "BBC"),
-    ("UNITED STATES", "Thomas Markle indicted over child sex abuse images.", "BBC"),
-    ("VATICAN", "Pope Leo XIV applies for a mail-in US midterm ballot.", "WIRE"),
-    ("FRANCE", "Students plan nationwide protests over education reforms.", "WIRE"),
-    ("PHILIPPINES", "Mount Mayon eruption raises fears of a bigger event.", "WIRE"),
-    ("EU / CANADA", "Brussels and Ottawa plan closer AI collaboration.", "WIRE"),
-    ("GERMANY", "Audi profit falls sharply on a weak China market.", "WIRE"),
-    ("BANGLADESH", "Garment workers clash with police in pay protests.", "WIRE"),
-    ("BRITAIN", "UK sanctions Houthi officials over abuse claims.", "WIRE"),
-    ("POLAND", "EU court: Poland violated an Afghan migrant's rights.", "WIRE"),
-    ("ECUADOR", "Floods reach the Galapagos as El Nino worries grow.", "WIRE"),
-    ("ZAMBIA", "Opposition figure charged with treason.", "WIRE"),
-    ("BANGLADESH", "Hasina sets 16 December for her return home.", "WIRE"),
-    ("CHINA", "Official sentenced to death for leaking 35 state secrets.", "WIRE"),
-    ("SUDAN", "RSF commander breaks with his faction.", "WIRE"),
-    ("YEMEN", "Army: ~700 strikes hit Houthi positions; ~97 fighters killed.", "WIRE"),
-    ("SAUDI ARABIA", "Iranian hackers hit hospitals and aviation with AI identities.", "WIRE"),
-    ("AUSTRALIA", "Canberra warns US-China rivalry is straining safeguards.", "WIRE"),
-    ("CHINA", "Shanghai party chief Chen Jining falls in a corruption probe.", "WIRE"),
-    ("VIENNA", "IAEA names a sanctioned Russian as deputy chief; Kyiv objects.", "WIRE"),
-    ("IRAQ / EGYPT", "Baghdad and Cairo agree to deepen economic ties.", "WIRE"),
-    ("ISRAEL", "Eisenkot clinches a first coalition deal; Lieberman joins.", "WIRE"),
-    ("PAKISTAN", "Islamabad eyes a $1.21bn disbursement next month.", "WIRE"),
+    ("MALAYSIA", "Malaysia buys 10 Boeing 787 Dreamliners.", "REUTERS"),
+    ("STRAIT OF HORMUZ", "Iran says two tankers hit mines and caught fire.", "REUTERS"),
+    ("ENGLAND", "England has the widest frailty gap of 31 nations.", "THE GUARDIAN"),
+    ("LONDON", "Chess Classic opens; Abdusattorov wins round one.", "CHESS.COM"),
+    ("NEW YORK", "Anthropic sinks to $73.85; value briefly under $1tn.", "REUTERS"),
+    ("SOUTH KOREA", "Births rise 12.2% in September, fastest in nine months.", "YONHAP"),
+    ("SAN FRANCISCO", "Anthropic posts a shorter Riemann proof.", "ANTHROPIC"),
+    ("SAN FRANCISCO", "King tides peak; Bay Area roads flood.", "NWS"),
+    ("NEW YORK", "Bitcoin sinks to $57,300 on hot US inflation.", "COINDESK"),
+    ("SPAIN", "Country heads to a snap election on Sunday.", "BBC"),
+    ("AUSTRALIA", "Ex-policeman guilty of Sydney double murder.", "BBC"),
+    ("WASHINGTON", "Core inflation hits 3.3%; December hike all but set.", "BEA"),
+    ("PARIS", "Roma end PSG's perfect Champions League record.", "UEFA"),
+    ("UKRAINE", "My family died in Ukraine, a BBC journalist investigates.", "BBC"),
+    ("UNITED STATES", "FBI agent's cold case ends in charges at last.", "BBC"),
+    ("INDIA", "Sensex jumps over 2% as Asia's markets slide.", "THE HINDU BUSINESSLINE"),
+    ("INDIA", "Amazon's exports from India reach $27 billion.", "THE HINDU BUSINESSLINE"),
+    ("BOGOR, INDONESIA", "Dozens trapped as floodwater swamps a gold mine.", "REUTERS"),
+    ("GHANA", "German-African business summit closes in Accra.", "AHK GHANA"),
+    ("ENGLAND", "Middle-aged women least likely to quit smoking.", "THE GUARDIAN"),
+    ("BRITAIN", "New tide measure may sharpen flood forecasts.", "THE GUARDIAN"),
+    ("BRITAIN", "Immigration misperceptions widespread, study finds.", "SKY NEWS"),
+    ("BRAZIL", "Latin America science forum meets in Brasilia.", "UNESCO"),
+    ("WASHINGTON", "US proposes new tariffs on 14 trading partners.", "REUTERS"),
+    ("SWITZERLAND", "Chess title match drawn; Gukesh-Sindarov level at 1-1.", "FIDE"),
+    ("SOUTH KOREA", "'Hope' takes Best Film; 'Possible Love' wins four.", "SPORTS CHOSUN"),
 ]
 
-KPI = [("KOSPI", "-5.8%"), ("NIKKEI", "-2.8%"), ("BRENT", "$90.09"),
-       ("WAR DEAD", "720,000"), ("WOMEN / HOUR", "5"),
-       ("SZ-24 TESTS", "90+"), ("TO ADEN", "60 km")]
+KPI = [("KOSPI", "-5.8%"), ("NIKKEI", "-2.8%"), ("BRENT", "$90.97"),
+       ("SENSEX", "+2.3%"), ("SZ-24 TESTS", "90+ PLANNED"), ("AUS CPI", "4.9%"),
+       ("KOREA BIRTHS", "+12.2%")]
 
 # pins: (number, label, lat, lon)
 PINS = [
-    (1, "Gulf of Finland", 60.0, 24.0),
+    (1, "Hodeidah", 15.0, 43.0),
     (2, "Jiuquan", 40.0, 100.0),
-    (3, "Seoul", 37.5, 127.0),
-    (4, "Hodeidah", 15.0, 43.0),
-    (5, "Moscow", 55.7, 37.6),
-    (6, "Madrid", 40.4, -3.7),
-    (7, "Cartagena", 10.4, -75.5),
-    (8, "Ankara", 39.9, 32.8),
-    (9, "Bunia", 1.6, 30.2),
-    (10, "Geneva", 46.2, 6.1),
-    (11, "Havana", 23.1, -82.4),
-    (12, "Warsaw", 52.2, 21.0),
+    (3, "Tokyo", 35.7, 139.7),
+    (4, "Pentagon", 38.9, -77.0),
+    (5, "Middletown", 40.8, -91.3),
+    (6, "Honiara", -9.4, 160.0),
+    (7, "Pyongyang", 39.0, 125.8),
+    (8, "Bengaluru", 13.0, 77.6),
+    (9, "London", 51.5, -0.1),
+    (10, "Darmstadt", 49.87, 8.65),
+    (11, "Washington", 38.9, -77.0),
+    (12, "Canberra", -35.3, 149.1),
 ]
 
 # ---- coarse land mask: (latitude, [(lon_start, lon_end), ...]) ----
@@ -228,31 +227,50 @@ def main():
         d.text((40, hy + 102 + i * 17), ln, font=font(F_REG, 13), fill=(52, 56, 64))
     draw_tag(d, 40, hy + 142, HERO[3], font(F_BOLD, 9), (255, 255, 255), NAVY2)
 
-    # hero illustration: night sea, ship, drones
+    # hero illustration: Hodeidah port on the Red Sea (labelled scene)
     ix0, iy0, ix1, iy1 = W - 330, hy + 4, W - 24, hy + hh
-    d.rectangle([ix0, iy0, ix1, iy1], fill=(16, 34, 58))
-    for i in range(40):  # stars
-        d.point((rng.randint(ix0 + 4, ix1 - 4), rng.randint(iy0 + 4, iy0 + 55)),
-                fill=(220, 220, 200))
-    d.rectangle([ix0, iy0 + 96, ix1, iy1], fill=(24, 62, 96))  # sea
-    for yy in range(iy0 + 100, iy1, 12):  # wave lines
+    d.rectangle([ix0, iy0, ix1, iy1], fill=(178, 210, 235))  # pale-blue sky
+    d.ellipse([ix1 - 62, iy0 + 8, ix1 - 20, iy0 + 50], fill=(255, 225, 130))  # sun halo
+    d.ellipse([ix1 - 56, iy0 + 14, ix1 - 26, iy0 + 44], fill=(255, 205, 60))  # sun
+    # grey smoke plume rising behind the containers
+    for (sx, sy, sr, sc) in [(ix0 + 52, iy0 + 66, 15, (150, 150, 150)),
+                             (ix0 + 76, iy0 + 46, 19, (135, 135, 135)),
+                             (ix0 + 102, iy0 + 28, 13, (160, 160, 160))]:
+        d.ellipse([sx - sr, sy - sr, sx + sr, sy + sr], fill=sc)
+    # two dark gantry cranes (legs + top beams + booms), drawn behind the stacks
+    CRANE = (38, 46, 58)
+    for cx in (ix0 + 24, ix0 + 150):
+        d.rectangle([cx, iy0 + 28, cx + 4, iy0 + 102], fill=CRANE)
+        d.rectangle([cx + 30, iy0 + 28, cx + 34, iy0 + 102], fill=CRANE)
+        d.rectangle([cx - 4, iy0 + 24, cx + 38, iy0 + 28], fill=CRANE)
+        d.rectangle([cx + 34, iy0 + 25, cx + 62, iy0 + 28], fill=CRANE)
+    # hook hanging from the first crane over the container stack
+    d.line([ix0 + 66, iy0 + 28, ix0 + 66, iy0 + 56], fill=CRANE, width=2)
+    d.rectangle([ix0 + 62, iy0 + 56, ix0 + 70, iy0 + 61], fill=CRANE)
+    # two container stacks on the quay (red / blue / green)
+    d.rectangle([ix0 + 18, iy0 + 84, ix0 + 66, iy0 + 102], fill=(196, 60, 48), outline=(30, 30, 30))
+    d.rectangle([ix0 + 68, iy0 + 84, ix0 + 116, iy0 + 102], fill=(40, 90, 150), outline=(30, 30, 30))
+    d.rectangle([ix0 + 22, iy0 + 66, ix0 + 66, iy0 + 84], fill=(40, 90, 150), outline=(30, 30, 30))
+    d.rectangle([ix0 + 68, iy0 + 66, ix0 + 112, iy0 + 84], fill=(40, 130, 80), outline=(30, 30, 30))
+    d.rectangle([ix0 + 150, iy0 + 84, ix0 + 198, iy0 + 102], fill=(40, 130, 80), outline=(30, 30, 30))
+    d.rectangle([ix0 + 200, iy0 + 84, ix0 + 248, iy0 + 102], fill=(196, 60, 48), outline=(30, 30, 30))
+    d.rectangle([ix0 + 154, iy0 + 66, ix0 + 198, iy0 + 84], fill=(196, 60, 48), outline=(30, 30, 30))
+    d.rectangle([ix0 + 200, iy0 + 66, ix0 + 244, iy0 + 84], fill=(40, 90, 150), outline=(30, 30, 30))
+    # concrete quay strip, then dark sea with wave lines
+    d.rectangle([ix0, iy0 + 102, ix1, iy0 + 122], fill=(188, 182, 170))
+    d.rectangle([ix0, iy0 + 122, ix1, iy1], fill=(22, 58, 92))
+    for yy in range(iy0 + 128, iy1, 10):
         d.line([ix0 + 8, yy, ix1 - 8, yy], fill=(60, 110, 160), width=1)
-    hull = (150, 160, 180)
-    d.polygon([(ix0 + 40, iy0 + 96), (ix0 + 250, iy0 + 96), (ix0 + 235, iy0 + 70),
-               (ix0 + 60, iy0 + 70)], fill=hull, outline=(220, 225, 235))  # hull
-    d.rectangle([ix0 + 120, iy0 + 46, ix0 + 150, iy0 + 70], fill=hull,
-                outline=(220, 225, 235))
-    d.rectangle([ix0 + 155, iy0 + 52, ix0 + 175, iy0 + 70], fill=hull,
-                outline=(220, 225, 235))
-    d.line([ix0 + 95, iy0 + 70, ix0 + 95, iy0 + 38], fill=hull, width=3)
-    d.polygon([(ix0 + 95, iy0 + 38), (ix0 + 118, iy0 + 46), (ix0 + 95, iy0 + 50)],
-              fill=RED)  # flag
-    for dx, dy in [(90, 26), (190, 16), (240, 30)]:  # drones
-        cx, cy = ix0 + dx, iy0 + dy
-        d.ellipse([cx - 5, cy - 5, cx + 5, cy + 5], fill=GOLD, outline=(255, 255, 255))
-        d.line([cx, cy, cx + 18, cy + 34], fill=GOLD, width=1)
-    d.text((ix0 + 10, iy1 - 20), "GULF OF FINLAND - NIGHT",
-           font=font(F_BOLD, 9), fill=(200, 210, 225))
+    # cargo ship at berth: dark hull + five deck containers
+    d.polygon([(ix0 + 168, iy0 + 130), (ix0 + 292, iy0 + 130),
+               (ix0 + 282, iy0 + 152), (ix0 + 178, iy0 + 152)], fill=(28, 36, 48),
+              outline=(110, 140, 170))
+    for j, cc in enumerate([(196, 60, 48), (40, 90, 150), (40, 130, 80),
+                            (196, 60, 48), (40, 90, 150)]):
+        x0 = ix0 + 172 + j * 24
+        d.rectangle([x0, iy0 + 118, x0 + 22, iy0 + 130], fill=cc, outline=(30, 30, 30))
+    d.text((ix0 + 10, iy1 - 20), "HODEIDAH PORT - RED SEA",
+           font=font(F_BOLD, 9), fill=(255, 255, 255))
 
     # ---- map + legend ----
     my, mh = 322, 138
@@ -266,11 +284,18 @@ def main():
                 px = mx0 + (lon + 180) / 360 * (mx1 - mx0)
                 py = my0 + (75 - lat) / 135 * (my1 - my0)
                 d.ellipse([px - 1.6, py - 1.6, px + 1.6, py + 1.6], fill=(120, 140, 165))
+    # leader-line offsets for pins that would collide (same city / close cities)
+    OFF = {4: (-18, 14), 5: (-14, -16), 9: (-16, -12), 10: (16, -6), 11: (18, -12)}
     for n, label, lat, lon in PINS:
         px = mx0 + (lon + 180) / 360 * (mx1 - mx0)
         py = my0 + (75 - lat) / 135 * (my1 - my0)
-        d.ellipse([px - 8, py - 8, px + 8, py + 8], fill=RED, outline=(255, 255, 255), width=1)
-        d.text((px - 3, py - 6), str(n), font=font(F_BOLD, 9), fill=(255, 255, 255))
+        ox, oy = OFF.get(n, (0, 0))
+        cx, cy = px + ox, py + oy
+        if (ox, oy) != (0, 0):
+            d.line([px, py, cx, cy], fill=RED, width=1)
+            d.ellipse([px - 2, py - 2, px + 2, py + 2], fill=RED)
+        d.ellipse([cx - 8, cy - 8, cx + 8, cy + 8], fill=RED, outline=(255, 255, 255), width=1)
+        d.text((cx - 3, cy - 6), str(n), font=font(F_BOLD, 9), fill=(255, 255, 255))
     # legend
     lx = 676
     d.text((lx, my + 6), "THE PINS", font=font(F_BLACK, 12), fill=NAVY)
@@ -341,9 +366,10 @@ def main():
 
     # ---- footer ----
     fy = dy + 32
-    d.text((24, fy), "All stories happened, or were first reported, on Wednesday 25 November 2026.  "
-           "Sources: AP - Reuters - AFP - BBC - Al Jazeera - Xinhua - UEFA - UN",
-           font=font(F_BOLD, 11), fill=INK)
+    d.text((24, fy), "Sources: Reuters - AP - BBC - Xinhua - NBC News - The Guardian - "
+           "Sky News - Yonhap - The Hindu BusinessLine - Chess.com - Anthropic - "
+           "NWS - CoinDesk - BEA - UEFA",
+           font=font(F_BOLD, 10), fill=INK)
 
     # ---- deterministic grain for texture ----
     for _ in range(9000):
